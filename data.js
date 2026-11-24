@@ -24,10 +24,10 @@ window.DEMO = {
   ],
   PAL: { White: '#ffffff', Silver: '#c3c7cc', Grey: '#6e737a', Black: '#1c1c1c', Blue: '#1f5fae', Red: '#c62828', Green: '#2e7d32', Yellow: '#f2b705', Orange: '#ef6c00', Brown: '#6d4c41', Purple: '#6a1b9a' },
   STATUS: {
-    'Active': { cls: 'st-active', fg: '#167b00', bg: '#fafff2', sub: '' },
-    'Needs Inspection': { cls: 'st-ni', fg: '#a1851f', bg: '#fffcf2', sub: 'Inspect before use' },
-    'In Repair': { cls: 'st-rep', fg: '#a85200', bg: '#fff7f0', sub: 'Not usable' },
-    'Out of Service': { cls: 'st-oos', fg: '#cc2222', bg: '#fff2f2', sub: 'Do not use' }
+    'Active': { cls: 'chip-status--success', fg: '#167b00', bg: '#fafff2', sub: '' },
+    'Needs Inspection': { cls: 'chip-status--warning', fg: '#a1851f', bg: '#fffcf2', sub: 'Inspect before use' },
+    'In Repair': { cls: 'chip-status--repair', fg: '#a85200', bg: '#fff7f0', sub: 'Not usable' },
+    'Out of Service': { cls: 'chip-status--error', fg: '#cc2222', bg: '#fff2f2', sub: 'Do not use' }
   },
   ORDER: { 'Active': 0, 'Needs Inspection': 1, 'In Repair': 2, 'Out of Service': 3 },
   // Existing vehicles. formsText/formsMeta are the lines shown in the Figma list frames.

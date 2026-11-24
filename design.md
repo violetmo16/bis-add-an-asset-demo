@@ -57,3 +57,10 @@ Taken from the Figma file "BIS Assessment" (Flow 1 page). Values match the Figma
 ## Out of scope
 
 Forms, tasks, More menu (move and deactivate), search and filters, the Deactivated view and the rest of the BIS app.
+
+## Naming in the stylesheet
+
+- **Variables** follow the Figma variable names with dashes: `color/surface/primary` is `--color-surface-primary`, `space/4` is `--space-4`, `radius/card` is `--radius-card`, `font/family/default` is `--font-family-default`.
+- **Component classes** follow the Figma component names: `BIS/Card/Asset` is `.card-asset`, `BIS/Chip/Status` is `.chip-status`, `BIS/Form/Field` is `.form-field`, `BIS/Navigation/Tab` is `.nav-tab`, `BIS/Feedback/Dialog` is `.feedback-dialog`.
+- **Variants** use `--` and match the Figma variant values (`.button--secondary`, `.chip-status--repair`, `.button--sm`). Parts of a component use `__` (`.card-asset__thumb`). States use `is-` (`.is-selected`, `.is-error`).
+- Plain layout helpers with no Figma component (`.row`, `.g3`, `.page`, `.muted`) keep short names.

@@ -9,22 +9,22 @@
 </head>
 <body>
 <div class="app" id="shell">
-  <header class="hdr">
-    <div class="hdr-top">
-      <button type="button" class="hdr-logo" aria-label="BIS - QAQC Test Environment" data-live data-go="#/list"></button>
-      <div class="hdr-sp"></div>
-      <div class="hdr-search">
+  <header class="nav-header">
+    <div class="nav-header__top">
+      <button type="button" class="nav-header__logo" aria-label="BIS - QAQC Test Environment" data-live data-go="#/list"></button>
+      <div class="nav-header__spacer"></div>
+      <div class="nav-header__search">
         <input type="search" placeholder="Search User" aria-label="Search user" readonly data-nodemo>
         <button type="button" aria-label="Search"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
       </div>
-      <button type="button" class="hdr-ico a" aria-label="Assistant"></button>
-      <button type="button" class="hdr-ico h" aria-label="Help"></button>
-      <button type="button" class="hdr-ico p" aria-label="Profile"></button>
-      <button type="button" class="hdr-out">Log Out <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="m9 6 6 6-6 6"/></svg></button>
+      <button type="button" class="nav-header__icon nav-header__icon--assistant" aria-label="Assistant"></button>
+      <button type="button" class="nav-header__icon nav-header__icon--help" aria-label="Help"></button>
+      <button type="button" class="nav-header__icon nav-header__icon--profile" aria-label="Profile"></button>
+      <button type="button" class="nav-header__logout">Log Out <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="m9 6 6 6-6 6"/></svg></button>
     </div>
-    <nav class="hdr-nav" aria-label="Main">
+    <nav class="nav-header__menu" aria-label="Main">
       <a href="#/x">Home</a><a href="#/x">Profile</a><a href="#/x">Store</a><a href="#/x">Rewards</a><a href="#/x">Purchases</a><a href="#/x">Users</a><a href="#/x">Reporting</a><a href="#/x">Calendar</a><a href="#/list" data-live id="nav-assets">Assets</a><a href="#/x">Folders</a><a href="#/x">QR</a><a href="#/x">Admin</a>
-      <button type="button" class="hdr-info" aria-label="Help">i</button>
+      <button type="button" class="nav-header__info" aria-label="Help">i</button>
     </nav>
   </header>
   <div id="app"></div>
